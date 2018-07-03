@@ -45,6 +45,8 @@ function calculatesFarePrice(start, destination){
       total_fare = 0;
   else if(400 < distance < 2000)
       total_fare = distance * 0.02
+      else
+      total_fare = distance * 25
 
 
   return total_fare;
