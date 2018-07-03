@@ -34,10 +34,9 @@ function calculatesFarePrice(start, destination){
 
   let distance;
   if(destination > start)
-   distance = ((destination - start) * 264)-400;
+   distance = ((destination - start) * 264) - 400;
    else
-   distance = ((start - destination) * 264)-400;
-
+   distance = ((start - destination) * 264) - 400;
 
   if(distance > 2500)
       total_fare = 'cannot travel that far'
